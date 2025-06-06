@@ -1,7 +1,9 @@
-//Create a const object  in Javascript can you change it to hold a number later:
-const a1 = {
-    name: "Saurav",
-    section: 1,
-    isPrincipal: false
+//WAP to print try again until the user enters the correct number :
+const prompt = require("prompt-sync")()
+let cn = 5
+let i 
+while (i != cn) {
+    console.log("Try Again")
+    i = prompt("Enter a number :")
 }
-console.log(a1)
+console.log("You have entered a correct number")

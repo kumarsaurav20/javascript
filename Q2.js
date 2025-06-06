@@ -1,14 +1,14 @@
-//create an array of square of a given number :
-const prompt = require("prompt-sync")()
+//Write a JS program to find whether the number is Divisible by 2 or not 
+const prompt = require("prompt-sync")();
+let num = prompt("Enter the number ")
 
-// let arr2 = []
-// let n2 = prompt("Enter value for Square : ")
-// square = [n2] * [n2]
-// console.log(n2 + "," + square)
-
-//If array is given:
-let arr = [1, 2, 3, 20, 5, 8]
-let n = arr.map((x) => {
-    return x * x
-})
-console.log(n)
+if(num % 2==0 ){
+    console.log("Number is divisible by 2")
+}
+else if(num % 2 ==1){
+    console.log("Number is not dividible by 2")
+}
+else{
+    console.log("Invalid Number")
+}
+console.log("Done")

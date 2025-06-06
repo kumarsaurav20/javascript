@@ -1,13 +1,4 @@
-//Create an array of numbers and take input from user to add numbers in array :
-let arr = [1, 2, 3, 4]
-const prompt = require("prompt-sync")()
-let n = prompt("Enter the number to add :")
-a = Number.parseInt(n)
-arr.push(n)
-console.log(arr)
-
-
-
-
-
-
+//Create a variable of type string and try to add a number to it:
+let a = "Saurav"
+let b = 20 ;
+console.log(a + b)
